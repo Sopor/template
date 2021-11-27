@@ -96,19 +96,19 @@ body:
         Include as many relevant details about the environment you experienced the bug in
       options:
         - label: Android
-          required: true
+#          required: true
         - label: iOS
-          required: true
+#          required: true
         - label: Linux
-          required: true
+#          required: true
         - label: OSX
-          required: true
+#          required: true
         - label: Raspberry-Pi
-          required: true
+#          required: true
         - label: Windows
-          required: true
+#          required: true
         - label: Windows UWP
-          required: true
+#          required: true
 
   - type: input
     attributes:
