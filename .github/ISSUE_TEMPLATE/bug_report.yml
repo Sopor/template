@@ -58,3 +58,66 @@ body:
         3.
     validations:
       required: false
+
+  - type: textarea
+    attributes:
+      label: Debuglog
+      description: |
+        A debuglog is always mandatory when creating an issue. Provide one!
+        More info can be found [here](https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Logging)
+      placeholder: |
+        The **debug** retrospect.log can be found here
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Screenshots
+#      description: |
+#      placeholder: |
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional context or screenshots (if appropriate)
+      description: |
+        How has this bug affected you? What were you trying to accomplish?
+#      placeholder: |
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Your Environment
+      multiple: true
+      description: |
+        Used Operating system:
+        Include as many relevant details about the environment you experienced the bug in
+      options:
+        - label: Android
+          required: true
+        - label: iOS
+          required: true
+        - label: Linux
+          required: true
+        - label: OSX
+          required: true
+        - label: Raspberry-Pi
+          required: true
+        - label: Windows
+          required: true
+        - label: Windows UWP
+          required: true
+
+  - type: input
+    attributes:
+      label: Kodi version
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Retrospect version
+    validations:
+      required: true
