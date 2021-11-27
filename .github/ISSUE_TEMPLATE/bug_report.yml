@@ -95,19 +95,19 @@ body:
         Used Operating system:
         Include as many relevant details about the environment you experienced the bug in
       options:
-        - label: Android
+        - Android
 #          required: true
-        - label: iOS
+        - iOS
 #          required: true
-        - label: Linux
+        - Linux
 #          required: true
-        - label: OSX
+        - OSX
 #          required: true
-        - label: Raspberry-Pi
+        - Raspberry-Pi
 #          required: true
-        - label: Windows
+        - Windows
 #          required: true
-        - label: Windows UWP
+        - Windows UWP
 #          required: true
 
   - type: input
