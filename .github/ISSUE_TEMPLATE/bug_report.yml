@@ -91,7 +91,7 @@ body:
     id: os
     attributes:
       label: Your Environment
-#      multiple: true
+      multiple: true
       description: |
         Used Operating system:
         Include as many relevant details about the environment you experienced the bug in
