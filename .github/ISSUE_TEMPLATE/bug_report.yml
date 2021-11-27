@@ -88,6 +88,7 @@ body:
       required: false
 
   - type: dropdown
+    id: os
     attributes:
       label: Your Environment
       multiple: true
@@ -96,19 +97,19 @@ body:
         Include as many relevant details about the environment you experienced the bug in
       options:
         - Android
-#          required: true
+          required: true
         - iOS
-#          required: true
+          required: true
         - Linux
-#          required: true
+          required: true
         - OSX
-#          required: true
+          required: true
         - Raspberry-Pi
-#          required: true
+          required: true
         - Windows
-#          required: true
+          required: true
         - Windows UWP
-#          required: true
+          required: true
 
   - type: input
     attributes:
