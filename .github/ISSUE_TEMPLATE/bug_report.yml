@@ -68,7 +68,7 @@ body:
         A debuglog is always mandatory when creating an issue. Provide one!
         More info can be found [**here**](https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Logging)
       placeholder: |
-        The **debug** retrospect.log can be found here
+        The debug retrospect.log can be found here
     validations:
       required: true
 
