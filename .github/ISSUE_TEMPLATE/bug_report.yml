@@ -18,34 +18,36 @@ body:
   - type: textarea
     attributes:
       label: Expected Behavior
-      description: |
-        Tell us what should happen
+#      description: |
+#        Tell us what should happen
       placeholder: |
-        Write here!
+        Tell us what should happen
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Actual Behavior
-      description: |
-        Tell us what happens instead
+#      description: |
+#        Tell us what happens instead
       placeholder: |
-        Write here!
+        Tell us what happens instead
     validations:
       required: true
 
   - type: textarea
+    id: fix
     attributes:
       label: Possible Fix
       description: |
         Not obligatory, but suggest a fix or reason for the bug
-      placeholder: |
-        Write here!
+#      placeholder: |
+#        Write here!
     validations:
       required: false
 
   - type: textarea
+    id: reproduce
     attributes:
       label: To Reproduce
       description: |
@@ -60,6 +62,7 @@ body:
       required: false
 
   - type: textarea
+    id: debug
     attributes:
       label: Debuglog
       description: |
@@ -71,6 +74,7 @@ body:
       required: true
 
   - type: textarea
+    id: screenshots
     attributes:
       label: Screenshots
 #      description: |
