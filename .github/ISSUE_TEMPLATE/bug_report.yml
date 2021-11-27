@@ -97,7 +97,7 @@ body:
         Include as many relevant details about the environment you experienced the bug in
       options:
         - label: Android
-#          required: true
+          required: true
         - label: iOS
 #          required: true
         - label: Linux
