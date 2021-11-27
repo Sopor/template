@@ -1,6 +1,5 @@
 name: Bug report
 desciption: Create a report to help us improve
-labels: bug
 
   - type: textarea
     attributes:
@@ -14,3 +13,4 @@ labels: bug
         A bug report that is not clear will be closed
     validations:
       required: true
+      
