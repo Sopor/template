@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 contact_links:
-  - name: IMPORTANT!!!
+  - name: Troubleshooting
     url: https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Troubleshooting
     about: Read the following link before you create a new issue report
 #  - name: uBlock Origin issues
