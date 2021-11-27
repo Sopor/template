@@ -1,6 +1,6 @@
 name: Bug report
 desciption: Create a report to help us improve
-
+body:
   - type: textarea
     attributes:
       label: Bug report
@@ -13,4 +13,3 @@ desciption: Create a report to help us improve
         A bug report that is not clear will be closed
     validations:
       required: true
-      
