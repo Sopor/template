@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Read the following link before you create a new issue report
     url: https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Troubleshooting
-    about: 
+    about: .
 #  - name: uBlock Origin issues
 #    url: https://github.com/uBlockOrigin/uBlock-issues/issues
 #    about: Issues about uBlock Origin itself
