@@ -1,8 +1,8 @@
 
 blank_issues_enabled: false
-#contact_links:
-#  - name: Questions and support
-#    url: https://old.reddit.com/r/uBlockOrigin/
+contact_links:
+  - name: Read the following link before you create a new issue report
+    url: https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Troubleshooting
 #    about: Answers to questions and other kinds of help support is provided on the subreddit r/uBlockOrigin
 #  - name: uBlock Origin issues
 #    url: https://github.com/uBlockOrigin/uBlock-issues/issues
