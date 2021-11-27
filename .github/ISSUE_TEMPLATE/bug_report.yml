@@ -83,7 +83,9 @@ body:
       label: Additional context or screenshots (if appropriate)
       description: |
         How has this bug affected you? What were you trying to accomplish?
-#      placeholder: |
+      placeholder: |
+        test me
+      value: "A bug happened!"
     validations:
       required: false
 
@@ -97,7 +99,7 @@ body:
         Include as many relevant details about the environment you experienced the bug in
       options:
         - label: Android
-          required: true
+#          required: true
         - label: iOS
 #          required: true
         - label: Linux
@@ -112,6 +114,7 @@ body:
 #          required: true
 
   - type: input
+    id: version
     attributes:
       label: Kodi version
     validations:
