@@ -7,7 +7,7 @@ body:
       label: Describe the bug
       description: |
         Please fill out this template to the best of your ability. You can always edit this issue once you have created it.
-        Read the following [link](https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Troubleshooting) before you create a new problem report.
+        Read the following [**link**](https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Troubleshooting) before you create a new problem report.
         Before you start make sure that you are running the latest Kodi and Retrospect version. Also check that you can watch the tv show online in a web browser.
       placeholder: |
         Provide a more detailed introduction to the issue itself, and why you consider it to be a bug
@@ -66,7 +66,7 @@ body:
       label: Debuglog
       description: |
         A debuglog is always mandatory when creating an issue. Provide one!
-        More info can be found [here](https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Logging)
+        More info can be found [**here**](https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Logging)
       placeholder: |
         The **debug** retrospect.log can be found here
     validations:
