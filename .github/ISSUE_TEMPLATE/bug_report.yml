@@ -52,8 +52,7 @@ body:
       label: To Reproduce
       description: |
         Steps to reproduce the behavior:
-        Provide a link to a live example, or an unambiguous set of steps to
-        reproduce this bug. Include code to reproduce, if relevant
+        Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant.
       placeholder: |
         1.
         2.
