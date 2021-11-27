@@ -24,3 +24,37 @@ body:
         Write here!
     validations:
       required: true
+
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: |
+        Tell us what happens instead
+      placeholder: |
+        Write here!
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Possible Fix
+      description: |
+        Not obligatory, but suggest a fix or reason for the bug
+      placeholder: |
+        Write here!
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description: |
+        Steps to reproduce the behavior:
+        Provide a link to a live example, or an unambiguous set of steps to
+        reproduce this bug. Include code to reproduce, if relevant
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
