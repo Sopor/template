@@ -87,7 +87,7 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: Your Environment
       multiple: true
