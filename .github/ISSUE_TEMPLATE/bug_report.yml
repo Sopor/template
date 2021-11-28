@@ -79,7 +79,7 @@ body:
 #      description: |
 #      placeholder: |
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
