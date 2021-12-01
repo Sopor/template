@@ -92,7 +92,7 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
+  - type: textarea
     id: os
     attributes:
       label: Your Environment
