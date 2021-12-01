@@ -107,13 +107,13 @@ body:
         Used Operating system:
         Include as many relevant details about the environment you experienced the bug in
       options:
-        - Android
-        - iOS
-        - Linux
-        - OSX
-        - Raspberry-Pi
-        - Windows
-        - Windows UWP
+        - label: Android
+        - label: iOS
+        - label: Linux
+        - label: OSX
+        - label: Raspberry-Pi
+        - label: Windows
+        - label: Windows UWP
 
   - type: input
     id: version
