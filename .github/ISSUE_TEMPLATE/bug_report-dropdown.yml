@@ -54,7 +54,8 @@ body:
       description: |
         Steps to reproduce the behavior:
         Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant.
-        examples: |
+      description: |
+        examples:
         - 1. In this environment...
         - 2. With this config...
         - 3. Run '...'
