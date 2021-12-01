@@ -59,10 +59,10 @@ body:
         1. In this environment...
         2. With this config...
         3. Run '...'
-      value: |
-        1.
-        2.
-        3.
+#      value: |
+#        1.
+#        2.
+#        3.
     validations:
       required: false
 
