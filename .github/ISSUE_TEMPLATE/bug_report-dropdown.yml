@@ -109,6 +109,8 @@ body:
         - Raspberry-Pi
         - Windows
         - Windows UWP
+    validations:
+      required: true
 
   - type: input
     id: version
