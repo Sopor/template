@@ -54,7 +54,7 @@ body:
       description: |
         Steps to reproduce the behavior:
         Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant.
-      description: |
+      placeholder: |
         examples:
         - 1. In this environment...
         - 2. With this config...
@@ -108,19 +108,12 @@ body:
         Include as many relevant details about the environment you experienced the bug in
       options:
         - Android
-#          required: true
         - iOS
-#          required: true
         - Linux
-#          required: true
         - OSX
-#          required: true
         - Raspberry-Pi
-#          required: true
         - Windows
-#          required: true
         - Windows UWP
-#          required: true
 
   - type: input
     id: version
