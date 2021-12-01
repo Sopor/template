@@ -1,5 +1,6 @@
-name: Bug report - dropdown
+name: Bug report
 description: Create a report to help us improve
+title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: textarea
@@ -54,6 +55,10 @@ body:
         Steps to reproduce the behavior:
         Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant.
       placeholder: |
+        1. In this environment...
+        2. With this config...
+        3. Run '...'
+      value: |
         1.
         2.
         3.
@@ -92,7 +97,7 @@ body:
     validations:
       required: false
 
-  - type: dropdown
+  - type: checkboxes
     id: os
     attributes:
       label: Your Environment
