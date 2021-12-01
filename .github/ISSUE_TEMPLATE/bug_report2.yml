@@ -92,7 +92,7 @@ body:
     validations:
       required: false
 
-  - type: textarea
+  - type: dropdown
     id: os
     attributes:
       label: Your Environment
