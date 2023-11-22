@@ -11,8 +11,9 @@ body:
         Read the following [**link**](https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Troubleshooting) before you create a new problem report.
         Before you start make sure that you are running the latest Kodi and Retrospect version. Also check that you can watch the tv show online in a web browser.
       placeholder: |
-        "Provide a more detailed introduction to the issue itself, and why you consider it to be a bug
-        A bug report that is not clear will be closed"
+        Provide a more detailed introduction to the issue itself, and why you consider it to be a bug
+        A bug report that is not clear will be closed
+        value:
     validations:
       required: true
   
