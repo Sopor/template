@@ -6,7 +6,6 @@ body:
   - type: textarea
     attributes:
       label: Describe the bug
-      value:
       description: |
         Please fill out this template to the best of your ability. You can always edit this issue once you have created it.
         Read the following [**link**](https://github.com/retrospect-addon/plugin.video.retrospect/wiki/Troubleshooting) before you create a new problem report.
