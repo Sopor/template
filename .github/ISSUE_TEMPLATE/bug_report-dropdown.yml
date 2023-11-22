@@ -13,7 +13,7 @@ body:
       placeholder: |
         Provide a more detailed introduction to the issue itself, and why you consider it to be a bug
         A bug report that is not clear will be closed
-        value:
+        value: |
     validations:
       required: true
   
