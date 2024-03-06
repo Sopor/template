@@ -1,5 +1,4 @@
----
-name: Bug report
+name: Bug report test
 description: Create a report to help us improve
 labels: bug
 body:
