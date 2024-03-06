@@ -43,13 +43,16 @@ body:
     attributes:
       label: System
       description: |
-        System (please complete the following information)
+        System (please complete the following information):
+        - OS
+        - J-Runner version:
     validations:
-      required: false
+      required: true
 
   - type: textarea
     attributes:
       label: Additional context
       description: |
         Add any other context about the problem here.
-    validations: null
+    validations:
+      required: false
