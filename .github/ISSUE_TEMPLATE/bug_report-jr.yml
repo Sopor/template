@@ -1,7 +1,7 @@
 name: Bug report test
 description: Create a report to help us improve
 title: "Bug: <title>"
-labels: [Bug]
+labels: Bug
 assignees: Octal450
 body:
   - type: textarea
