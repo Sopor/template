@@ -34,15 +34,15 @@ body:
       required: false
 
 - type: textarea
-      attributes:
-      label: System (please complete the following information):
-      description: |
-          System (please complete the following information):
-      placeholder: |
-        - OS:
-        - J-Runner version:
-      validations:
-        required: false
+  attributes:
+    label: System (please complete the following information):
+    description: |
+        System (please complete the following information):
+    placeholder: |
+      - OS:
+      - J-Runner version:
+    validations:
+      required: false
 
   - type: textarea
     attributes:
@@ -51,5 +51,3 @@ body:
         Add any other context about the problem here.
     validations:
       required: false
-
-
