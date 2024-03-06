@@ -42,8 +42,8 @@ body:
       label: System
       description: |
         System (please complete the following information):
-        - OS
-        - J-Runner version:
+        OS:
+        J-Runner version:
     validations:
       required: true
   - type: textarea
