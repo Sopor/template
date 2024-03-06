@@ -38,9 +38,7 @@ body:
       label: System (please complete the following information)
       description: |
         System (please complete the following information)
-    placeholder: | 
-      OS
-      J-Runner version
+    placeholder: OS
     validations:
       required: false
 
