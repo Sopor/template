@@ -16,6 +16,7 @@ body:
         4. See error
     validations:
       required: false
+
   - type: textarea
     attributes:
       label: Expected Behavior
@@ -23,6 +24,7 @@ body:
         A clear and concise description of what you expected to happen.
     validations:
       required: true
+
   - type: textarea
     attributes:
       label: Screenshots
@@ -30,9 +32,10 @@ body:
         If applicable, add screenshots to help explain your problem.
     validations:
       required: false
+
   - type: textarea
     attributes:
-      label: System (please complete the following information)
+      label: System (please complete the following information):
       description: |
         System (please complete the following information):
     placeholder: |
@@ -40,6 +43,7 @@ body:
       - J-Runner version:
     validations:
       required: false
+
   - type: textarea
     attributes:
       label: Additional context
