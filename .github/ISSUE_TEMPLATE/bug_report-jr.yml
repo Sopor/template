@@ -35,9 +35,9 @@ body:
 
   - type: textarea
     attributes:
-      label: System (please complete the following information):
+      label: System (please complete the following information)
       description: |
-        System (please complete the following information):
+        System (please complete the following information)
     placeholder: |
       - OS:
       - J-Runner version:
