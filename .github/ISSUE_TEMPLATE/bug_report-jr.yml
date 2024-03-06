@@ -1,7 +1,9 @@
+---
 name: Bug report test
 description: Create a report to help us improve
 title: "Bug: <title>"
-labels: [bug]
+labels:
+  - bug
 body:
   - type: textarea
     attributes:
@@ -10,7 +12,6 @@ body:
         A clear and concise description of what the bug is.
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: To Reproduce
@@ -20,9 +21,8 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-  validations:
-    required: false
-
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Expected Behavior
@@ -30,7 +30,6 @@ body:
         A clear and concise description of what you expected to happen.
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: Screenshots
@@ -38,7 +37,6 @@ body:
         If applicable, add screenshots to help explain your problem.
     validations:
       required: false
-
   - type: textarea
     attributes:
       label: System
@@ -48,7 +46,6 @@ body:
         - J-Runner version:
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: Additional context
