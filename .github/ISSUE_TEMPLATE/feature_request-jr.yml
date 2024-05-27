@@ -1,7 +1,6 @@
 name: Feature request
 description: Create a report to help us improve
 title: "Feature Request: <title>"
-labels: feature request
 assignees: Octal450
 body:
   - type: textarea
